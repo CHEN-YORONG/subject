@@ -1,0 +1,158 @@
+body {
+    background-color: #F6F4E8;
+    color:5E5D5D;
+}
+
+.rongboxborder {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #CCC;
+    text-align: center;
+    box-shadow: 0 2px 2px rgba(10, 16, 20, .24), 0 0 2px rgba(10, 16, 20, .12);
+}
+
+.rongboxbg {
+    background-color: #E59560;
+}
+
+.rongboxborder p {
+    line-height: 150px
+}
+
+.rongtextcolor {
+    color: white;
+}
+
+.rongproducttype {
+    width: 850px;
+    border-bottom: 1px solid #5E5D5D;
+    margin-top: 30px;
+}
+
+.btn {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #F6F4E8;
+    padding: 17px 60px;
+    margin: 0 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #E59560;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+/* ----------------配送----- */
+.rongbodybg{
+    background-color: #F6F4E8;
+}
+.rongbodybg option{
+    font-size: 14px;
+}
+.rongradiostyle p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.rongradiostyle span{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #5E5D5D;
+}
+.rongtotal{
+    width: 850px;
+    /* border:  1px solid black; */
+}
+.rongsettotal p{
+    /* font-size: 24px; */
+    font-weight: bold;
+}
+.rongsettotal span{
+    /* font-size: 24px; */
+    font-weight: bold;
+    color: red;
+    
+}
+.rong {
+    margin-left: 15px;
+}
+/* --------收件---------------- */
+
+.w875{
+    width: 875px;
+}
+.borderbottom{
+    border-bottom: 1px solid #5e5d5d;
+}
+.inputstyle{
+    border-radius: 6px;
+}
+.visa img {
+    width: 100px;
+}
+.year{
+    margin-left: 35px;
+}
+.borderstyle{
+    border:1px solid #5e5d5d
+}
+.folotright{
+    float: right;
+}
+.rongorder{
+    background-color: #CCC;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.rongsettotal,.rongsettotal2 p{
+    text-align: right;
+}
+.rongline{
+    border-top: 1px solid rgb(5, 5, 5);
+    /* width: 30%; */
+    
+}
+.rongsettotal2 span{
+    font-size: 1.6rem;
+    color: red;
+}
+.rongorderdetail div{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.rongorderdetail span{
+    margin-left: 20px;
+    
+}
+.red{
+    color: red;
+}

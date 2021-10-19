@@ -208,3 +208,6 @@ body {
 td{
     margin: auto;
 }
+.rongmoney{
+    width: 300px; border-top: 1px solid black;
+}
